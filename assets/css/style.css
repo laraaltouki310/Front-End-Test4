@@ -1,0 +1,53 @@
+body{
+    background: url(/assets/midia/photo_2026-09-27_17-44-05.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 150px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+a{
+    font-size: 20px;
+    color: black;
+    margin-right: 50px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    height: 85vh;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+p{
+    font-size: 15px;
+    margin-top: 0px;
+    color: #394346;
+}
+button{
+    background-color: #fd3b01;
+    color: white;
+    font-size: 13px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 115px;
+    height: 50px;
+    padding-bottom: 30px;
+}
